@@ -24,8 +24,8 @@
   --font: Atkinson Hyperlegible; /* Custom font | Default: 'Inter' */
   --channels-width: 275px; /* Width of the channels list. | Default: 300px */
   --guilds-width: 75px; /* Width of the server list. | Default: 105px */
-  --members-width: 250px; /* Width of the members list. | Default: 280px */
-  --server-size: 50px; /* Size of the servers inside the server list. | Default: 50px */
+  --members-width: 280px; /* Width of the members list. | Default: 280px */
+  --server-size: 40px; /* Size of the servers inside the server list. | Default: 50px */
   --chat-avatar-size: 40px; /* Size of the chat avatars. | Default: 32px */
   --rs-small-spacing: 0px; /* Gap between avatar and status for members list/dms | MUST end in px */
   --rs-medium-spacing: 0px; /* Gap between avatar and status for User popout | MUST end in px */
@@ -45,5 +45,4 @@
 }
 
 /* Any custom CSS below here */
-
 
