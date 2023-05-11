@@ -1,0 +1,53 @@
+/**
+ * @name ping-frosted
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness.
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @invite ZHthyCw
+ * @donate https://paypal.me/IanRGibson
+ * @website https://gibbu.me
+ * @authorId 174868361040232448
+*/
+
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+@import url(https://clearvision.github.io/Addons/whitney.css);
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+:root {
+  --background-image: url('https://preview.redd.it/xnbx4jll5je91.png?width=5160&format=png&auto=webp&s=f47868a3847de53c2888d572110f26eb77711b93');
+  --background-image-blur: 0px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-modal-image: transparent;
+  --popout-modal-blur: 4px;
+  --popout-modal-size: cover;
+  --popout-modal-position: center left;
+  --home-button-image: url('https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg');
+  --home-button-size: 100%;
+  --home-button-position: center;
+  --serverlist-brightness: 0.4;
+  --left-brightness: 0.4;
+  --middle-brightness: 0.4;
+  --right-brightness: 0;
+  --popout-modal-brightness: 0.2;
+  --gradient-primary: 240,38,149;
+  --gradient-secondary: 161, 63, 181;
+  --link-colour: rgba(255,105,222,1);
+  --scrollbar-colour: rgba(255,255,255,0.05);
+  --gradient-direction: 225deg;
+  --tint-colour: 213,142,247;
+  --tint-brightness: 0;
+  --font: Atkinson Hyperlegible;
+  --window-padding: 5px;
+  --window-roundness: 10px;
+  --update-notice-1: none;
+}
+
+/* Any custom CSS below here */
+
+.theme-dark .scroller-3X7KbA {
+  background: rgba(0,0,0,.4);
+}
